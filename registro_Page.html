@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <section>
+        <article>
+            <h2>Ingresa tus datos personales</h2>
+            <label for="fnombre">Nombres:</label><br>
+            <input type="text" name="nombre" id="registro_nombre" cols="10" rows="1"><br><br>
+            <label for="fapellido">Apellidos:</label><br>
+            <input type="text" name="apellido" id="registro_apellido" cols="10" rows="1"><br><br>
+
+            <label for="fdocumento">Tipo de documento:</label><br>
+            <select id="combobox" name="registro_tipo">
+                <option value="cedulaC">Cedula de Ciudadania</option>
+                <option value="cedulaE">Cedula Extranjera</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select><br><br>
+            <label for="fnumeroCedula"># de Identificacion:</label><br>
+            <input type="number" name="numeroCedula" id="registro_cedula" cols="10" rows="1"><br><br>
+
+            <label for="fnumeroCelular"># de Celular:</label><br>
+            <input type="number" name="numeroCelular" id="registro_celular" cols="10" rows="1"><br><br>
+
+            <label for="fcorreo">Correo electronico:</label><br>
+            <input type="email" name="correo" id="registro_correo" cols="10" rows="1"><br><br>
+
+            <label for="fpassword">Contraseña:</label><br>
+            <input type="password" name="password" id="registro_password" cols="10" rows="1"><br><br>
+
+            <label for="fConpassword">Confirmar Contraseña:</label><br>
+            <input type="password" name="Conpassword" id="registro_Conpassword" cols="10" rows="1"><br><br>
+
+            <input type="checkbox" name="check_options" id="check_options" cols="10" rows="1">
+            <label for="checkbox">Acepto los <Strong>Terminos y Condiciones</Strong> y Autorizo el <Strong>Tratamiento de Datos Personales</Strong> de El Punzon S.A</label><br><br>
+
+            <button type="button" id="boton_registro" onclick="window.location.replace('main_Page.html')">Crear Cuenta</button>
+            <button type="button" id="boton_cancel" onclick="window.location.replace('main_Page.html')">Cancelar</button>
+        </article>
+    </section>
+</body>
+
+</html>
