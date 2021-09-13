@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Precios</title>
+</head>
+
+<body>
+    <header>
+        Bienvenido
+    </header>
+    <aside>
+        <a href="ingresoProducto_Page.html">Ingresar Producto</a> |
+        <a href="modificarPrecios_Page.html">Modificar Precio</a> |
+        <a href="factura_Page.html">Factura de Venta</a> |
+        <a href="main_Page.html">Catalogo de Productos</a>
+    </aside>
+    <h1>Inicio de Sesión</h1>
+    <section>
+        <article>
+            <h2>Modificar Precios</h2>
+            <nav>
+                Buscador
+                <input type="text" name="buscador_catalogo" id="buscador" cols="20" rows="1"><br><br>
+            </nav>
+            <label for="marca">Marca:</label><br><br>
+            <label for="categoria">Categoria:</label><br><br>
+            <label for="desProducto">Descripción Producto:</label><br><br>
+            <label for="fvalor">Valor Unitario:</label><br>
+            <input type="number" name="valorUnitario" id="valorUnitario_producto" cols="10" rows="1"><br><br>
+
+            <button type="button" id="btnmodificar_valor" onclick="window.location.replace('main_Page.html')">Modificar Valor</button>
+            <button type="button" id="btn_cancel"
+                onclick="window.location.replace('main_Page.html')">Cancelar</button>
+        </article>
+    </section>
+</body>
+
+</html>

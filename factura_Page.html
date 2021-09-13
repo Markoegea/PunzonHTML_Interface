@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Factura de Venta</title>
+</head>
+
+<body>
+    <header>
+        Bienvenido
+    </header>
+    <aside>
+        <a href="ingresoProducto_Page.html">Ingresar Producto</a> |
+        <a href="modificarPrecios_Page.html">Modificar Precio</a> |
+        <a href="factura_Page.html">Factura de Venta</a> |
+        <a href="main_Page.html">Catalogo de Productos</a>
+    </aside>
+    <h1>Factura de Venta</h1>
+    <section>
+        <article>
+            <h2>Ingresa los datos del cliente</h2>
+
+            <label for="documento">Tipo de Documento:</label><br>
+            <select id="combobox" name="registro_tipo">
+                <option value="cedulaC">Cedula de Ciudadania</option>
+                <option value="cedulaE">Cedula Extranjera</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select><br><br>
+
+            <label for="numeroCedula"># de Identificacion:</label><br>
+            <input type="number" name="numeroCedula" id="registro_cedula" cols="10" rows="1"><br><br>
+
+            <label for="nombreCli">Nombres:</label><br>
+            <input type="text" name="nombreCli" id="registro_nombreCliente" cols="10" rows="1"><br><br>
+
+            <label for="apellidoCli">Apellidos:</label><br>
+            <input type="text" name="apellidoCli" id="registro_apellidoCli" cols="10" rows="1"><br><br>
+
+            <h2>Ingresa los productos a comprar</h2>
+
+            <label for="codigo">Código:</label><br>
+            <input type="number" name="codigo" id="codigo_producto" cols="10" rows="1"><br><br>
+
+            <label for="desProducto">Descripción Producto:</label><br>
+            <input type="text" name="desProducto" id="descripcion_producto" cols="50" rows="1"><br><br>
+
+            <label for="cantidad">Cantidad:</label><br>
+            <input type="number" name="cantidad" id="cantidad_producto" cols="10" rows="1"><br><br>
+
+            <label for="valor">Valor Unitario:</label><br>
+            <input type="number" name="valorUnitario" id="valorUnitario_producto" cols="10" rows="1"><br><br>
+
+            <label for="subtotal">SubTotal:</label><br><br>
+            <!--Cantidad * Valor Unitario-->
+
+            <label for="iva">IVA:</label><br><br>
+            <input type="number" name="iva" id="descuento" cols="10" rows="1"><br><br>
+
+            <label for="descuento">Descuento:</label><br><br>
+            <input type="number" name="descuento" id="descuento" cols="10" rows="1"><br><br>
+
+            <label for="total">Total:</label><br><br>
+
+            <button type="button" id="btn_facturar" onclick="window.location.replace('main_Page.html')">Generar
+                Factura</button>
+            <button type="button" id="btn_cancel" onclick="window.location.replace('main_Page.html')">Cancelar</button>
+        </article>
+    </section>
+</body>
+
+</html>
