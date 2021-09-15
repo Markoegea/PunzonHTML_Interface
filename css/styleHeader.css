@@ -1,0 +1,32 @@
+.header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+}
+
+header
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #c7610e;
+    color: white;
+}
+ 
+a
+{
+    width: auto;
+    height: auto;
+    padding: 0 2% 0 2%;
+}
+
+aside
+{
+    text-align: right;
+}
+
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
