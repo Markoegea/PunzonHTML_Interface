@@ -66,15 +66,15 @@ footer{
 }
 
 .menu_lateral{
-    width: 200px;
+    width: 250px;
     box-shadow: 5px 0px 5px lightgray;
     margin-left: 5%;
     text-align: left;
-
 }
 
 .menu_contenido{
     margin-top: 1%;
+    margin-right: 5%;
     width: 85%;
     font-size: 90%;
 }
@@ -112,4 +112,12 @@ table{
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 10px;
+}
+
+.opciones_trabajador{
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 10px;
+    width: 70%;
+    height: 70%;
 }
