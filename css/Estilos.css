@@ -1,0 +1,124 @@
+.logo{
+    position:relative;
+    width: 160px;
+    height: 80px;
+    box-align: left;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    box-shadow: 0px 5px 5px lightgray;
+    display: inline-flex;
+    height: 100%;
+    width:100%;
+    align-items: center;;
+}
+
+.sec_logo{
+    margin-left: 5%;
+    width: 20%;
+}
+
+aside{
+    width: 100%;
+    margin-right: 5%;
+    text-align: right;
+    font-size: 90%;   
+}
+
+footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 90%;  
+}
+
+.registro{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.catalogo{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.menu{
+    display: inline-flex;
+    width: 100%;
+}
+
+.menu_lateral{
+    width: 250px;
+    box-shadow: 5px 0px 5px lightgray;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.menu_contenido{
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 85%;
+    font-size: 90%;
+}
+
+option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    vertical-align:top;
+}
+
+td{
+    box-shadow: 5px 0px 5px lightgray;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    font-size: 90%;
+    padding: 1%;  
+    width: 200px;  
+}
+
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 10px;
+}
+
+.opciones_trabajador{
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 10px;
+    width: 70%;
+    height: 70%;
+}
