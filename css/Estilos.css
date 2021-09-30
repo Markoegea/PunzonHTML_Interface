@@ -64,6 +64,7 @@ footer{
 .menu{
     display: inline-flex;
     width: 100%;
+    font-size: 2,1vh;
 }
 
 .menu_lateral{
@@ -80,19 +81,7 @@ footer{
     font-size: 90%;
 }
 
-option{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-button{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-input{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-select{
+option, button, input, select{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
