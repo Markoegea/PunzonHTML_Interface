@@ -17,5 +17,10 @@
     <string name="mobile">"Teléfono móvil"</string>
     <string name="email">"Email"</string>
     <string name="action_register_short">Registrar</string>
-
+    <string-array name="id_type_array">
+        <item>Cédula de ciudadanía</item>
+        <item>Tarjeta de identidad</item>
+        <item>Cedula de extranjería</item>
+        <item>Pasaporte</item>
+    </string-array>
 </resources>
