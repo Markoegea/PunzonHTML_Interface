@@ -15,13 +15,14 @@
         android:id="@+id/last_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="192dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/last_name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,14 +30,13 @@
         android:id="@+id/id"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="276dp"
+        android:layout_marginTop="304dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/id"
         android:inputType="text"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,7 +44,7 @@
         android:id="@+id/address"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="360dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/address"
         android:inputType="textPersonName"
@@ -58,7 +58,7 @@
         android:id="@+id/mobile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="404dp"
+        android:layout_marginTop="416dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/mobile"
         android:hintTextColor="#757575"
@@ -66,7 +66,7 @@
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,7 +74,7 @@
         android:id="@+id/name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="136dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/name"
         android:inputType="textPersonName"
@@ -88,13 +88,14 @@
         android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="464dp"
+        android:layout_marginTop="476dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,7 +103,7 @@
         android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="352dp"
         android:autofillHints="@string/prompt_password"
         android:hint="@string/prompt_password"
         android:imeActionLabel="@string/action_sign_in_short"
@@ -111,7 +112,7 @@
         android:minHeight="48dp"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
@@ -146,23 +147,23 @@
 
     <Spinner
         android:id="@+id/id_type"
-        android:layout_width="378dp"
+        android:layout_width="381dp"
         android:layout_height="48dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="248dp"
         android:entries="@array/id_type_array"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="374dp"
-        android:layout_height="77dp"
+        android:layout_width="376dp"
+        android:layout_height="126dp"
+        android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
